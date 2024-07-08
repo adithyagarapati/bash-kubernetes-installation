@@ -27,8 +27,8 @@ This guide provides detailed instructions for setting up a Kubernetes cluster on
 
     ```bash
     sudo apt update && sudo apt install git -y
-    git clone https://github.com/artisantek/kubernetes-installation
-    cd kubernetes-installation
+    git clone https://github.com/adithyagarapati/bash-kubernetes-installation.git
+    cd bash-kubernetes-installation
     bash install-kubernetes-1.30.sh
     ```
 
@@ -42,6 +42,9 @@ This guide provides detailed instructions for setting up a Kubernetes cluster on
 2. **Use the same installation script** as the master node to ensure all nodes are configured identically:
 
     ```bash
+    sudo apt update && sudo apt install git -y
+    git clone https://github.com/adithyagarapati/bash-kubernetes-installation.git
+    cd bash-kubernetes-installation
     bash install-kubernetes-1.30.sh
     ```
 
